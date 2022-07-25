@@ -1,0 +1,182 @@
+.card{
+    margin: 50px 0;
+    font-family: 'Montserrat_Regular';
+}
+.card__content{
+    display: flex;
+    justify-content: space-between;
+}
+.card__img{
+    width: 100%;
+}
+.card__slider{
+    position: relative;
+
+    width: 50%;
+}
+
+.card__title{
+    
+    margin-bottom: 10px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $fs_18;
+    color: $color_cuurency;
+}
+
+.card__social{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    font-family: 'Montserrat_Regular',serif;
+    font-size: $fs_14;
+    font-weight: bold;
+}
+
+.card__review{
+    color: $color_footertxt;
+
+    & span{
+        padding-right: 5px;
+    }
+}
+
+.card__star{
+    width: 15px;
+    height: 15px;
+
+    margin: -2px;
+
+    fill: $color_star;
+    &--empty{
+        fill: $color_starEpty;
+    }
+}
+
+.card__link{
+    color: $color_mapText;
+
+    &:hover{
+        transition: .3s;
+        color: $color_main;
+    }
+}
+
+.card__share{
+    color: $color_mapText;
+}
+
+.card__svgLink{
+    margin-right: 8px;
+    margin-left: 2px;
+}
+
+.card__svg{
+    margin-top: -1px;
+    
+    width: 15px;
+    height: 15px;
+    fill: $colot_ico;
+}
+
+.card__line{
+    border-right: 2px solid $color_search;
+}
+
+.card__price{
+    position: relative;
+
+    margin-bottom: 40px;
+
+    color: $color_price;
+}
+
+.card__symbol{
+    position: absolute;
+    font-size: $fs_12;
+    left: 3px;
+}
+
+.card__discount{
+    text-decoration: line-through;
+    padding-left: 13px;
+
+}
+
+.card__noDiscount{
+    position: relative;
+    padding-left: 13px;
+}
+
+.card__uniqueness{
+    margin-bottom: 20px;
+
+    font-size: $fs_13;
+    color: $color_cuurency;
+    font-weight: bold;
+
+    & span{
+        text-transform: uppercase;
+        margin-right: 5px;
+    }
+
+}
+
+
+.card__descripe{
+    margin-bottom: 30px;
+
+    color: $color_mapText;
+    font-size: $fs_14;
+    & p{
+        margin-bottom: 10px;
+    }
+
+    & ul,li{
+        list-style: inside;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+.card__Availability{
+    margin-bottom: 10px;
+
+}
+
+.card__Product{
+    margin-bottom: 10px;
+
+}
+
+.card__Tags{
+    margin-bottom: 10px;
+    
+}
+
+
+
+.slider__angle{
+    width: 35px;
+    height: 35px;
+}
+
+.card__info{
+    width:48%;
+}
+
+
+
+.card__selecor{
+    display: flex;
+    margin-bottom: 50px;
+    
+    justify-content: space-between;
+
+
+}
