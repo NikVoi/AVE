@@ -1,0 +1,1 @@
+document.querySelector(".header__bottom"),console.log("file 2");
