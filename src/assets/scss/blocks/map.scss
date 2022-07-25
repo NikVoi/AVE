@@ -1,0 +1,102 @@
+.map{
+    display: flex;
+    margin-bottom: 100px;
+   
+}
+.map__item{
+    &:first-child{
+        width: 60%;
+    }
+    &:last-child{
+        width: 40%;
+    }
+}
+.map__place{
+    & iframe{
+        width: 100%; 
+        height: 400px;
+    }
+}
+
+.map__info{
+    height: 100%;
+
+    background-color: $color_whiteDark;
+
+
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+
+.map__allInf{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 120px;
+
+    margin-bottom: 35px;
+    font-size: $fs_12;
+    color: $color_mapText;
+    
+    font-family: 'Montserrat_Light';
+}
+
+.map__flex{
+    position: relative;
+    padding-left: 25px;
+
+}
+
+.map__ico{
+    position: absolute;
+    top: -3px;
+    left: 0;
+    
+    width: 15px;
+    height: 15px;
+    fill: $color_mapText;;
+
+}
+
+.map__button{
+    fill: $color_white;
+
+    &--facebook{
+        position: absolute; 
+        top: 6px;
+        left: 5px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+    &--instagram{
+        position: absolute; 
+        top: 6px;
+        left: 6px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+    &--twitter{
+        position: absolute; 
+        top: 7px;
+        left: 7px;
+
+        width: 18px;
+        height: 18px;
+    }
+
+    &--pinterest{
+        position: absolute; 
+        top: 6px;
+        left: 6px;
+
+        width: 18px;
+        height: 18px;
+    }
+}

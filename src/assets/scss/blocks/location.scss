@@ -1,0 +1,47 @@
+.location{
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 50px;
+}
+
+.location__title{
+    margin-bottom: 15px;
+
+    font-family: 'Roboto_Regular';
+    font-size: $fs_16;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color_AVE;
+}
+
+.location__adress{
+    margin-bottom: 15px;
+
+    font-family: 'Montserrat_Regular';
+    font-size: $fs_13;
+    font-weight: bold;
+    color: $color_AVE;
+
+    &--color_footertxt{
+        color: $color_mapText;
+    }
+}
+
+.location__info{
+    margin-bottom: 20px;
+
+    font-family: 'Roboto_Regular';
+    width: 320px;
+    font-size: $fs_14;
+    color: $color_AVE;
+
+    &--color_mapText{
+        color: $color_mapText;
+    }
+
+    &--w450{
+        width: 450px;
+    }
+}
+
